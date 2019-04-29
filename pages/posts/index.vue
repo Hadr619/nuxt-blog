@@ -1,8 +1,18 @@
 <template>
     <div class="c-page__posts">
-
+        <PostList />
     </div>
 </template>
+
+<script>
+import PostList from '@/components/posts/PostList'
+export default {
+    components:{
+        PostList
+    }
+}
+</script>
+
 
 
 <style scoped>
@@ -11,4 +21,6 @@
     justify-content: center;
     align-items: center;
 }
+
+
 </style>
